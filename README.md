@@ -1,2 +1,2 @@
 # odin-recipes
-Basic HTML Capstone: Develop HTML skills by creating a recipe website w/ multiple pages
+Odin Foundations Course - HTML Basics Capstone Project: Practice skills gained through module on HTML structure and elements such as text, lists, links and images by building a recipe website with multiple pages linked to one index page, as well as ancilliary skillsets such as file organization, repository management, and Git(Hub) synchronization.
