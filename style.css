@@ -1,0 +1,92 @@
+* {
+    color: #080808;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightseagreen;
+}
+
+div {
+    border: 0px;
+    margin: 0%;
+}
+
+ul.page-links {
+    vertical-align: middle;
+}
+
+li.index {
+    background-color: transparent;
+    color: yellow;
+    text-shadow: #08080877;
+    list-style: none;
+    margin-top: 10px;
+}
+
+button {
+    background-color: blueviolet;
+    color: yellow;
+    font-size: 18px;
+    font-stretch: expanded;
+    border-radius: 30%;
+}
+
+h1,
+h3 {
+    font-family: Garamond, Georgia, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: yellow;
+    color: blueviolet;
+    font-weight: 800;
+    font-stretch: ultra-expanded;
+}
+
+h3 {
+    background-color: yellow;
+    color: blue;
+    font-size: 24px;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+img {
+    display: block;
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+div.title {
+    background-color: peachpuff;
+}
+
+div.description {
+    background-color: antiquewhite;
+}
+
+div.ingredients {
+    background-color: beige;
+}
+
+div.steps {
+    background-color: bisque;
+}
+
+.ingredients .odd {
+    background-color: lightskyblue;
+}
+
+.ingredients .even {
+    background-color: lightpink;
+}
+
+.steps .odd {
+    background-color: lightgreen;
+}
+
+.steps .even {
+    background-color: lightyellow;
+}
