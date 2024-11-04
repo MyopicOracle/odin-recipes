@@ -1,62 +1,130 @@
 * {
-    color: #080808;
+    color: blueviolet;
     font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: lightseagreen;
+    height: 100vh;
+    margin: 0;
+    /*  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 
 div {
     border: 0px;
-    margin: 0%;
+    margin: 0;
 }
 
-ul.page-links {
-    vertical-align: middle;
-}
-
-li.index {
-    background-color: transparent;
-    color: yellow;
-    text-shadow: #08080877;
+ul#page-links {
     list-style: none;
-    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 36px;
+}
+
+#page-links a {
+    color: yellow;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 32px;
+    border: 1px dashed yellow;
+    border-radius: 40px;
 }
 
 button {
     background-color: blueviolet;
-    color: yellow;
-    font-size: 18px;
-    font-stretch: expanded;
-    border-radius: 30%;
+    width: 400px;
+    border-radius: 40px;
+    padding: 24px 36px;
+    box-shadow: 4px 4px 0 yellow;
 }
 
-h1,
-h3 {
+h1, h3 {
     font-family: Garamond, Georgia, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     background-color: yellow;
     color: blueviolet;
     font-weight: 800;
-    font-stretch: ultra-expanded;
+    /* width: max-content; */
 }
 
 h3 {
-    background-color: yellow;
-    color: blue;
+    background-color: violet;
+    color: white;
     font-size: 24px;
     font-weight: 600;
-    font-stretch: expanded;
+    text-indent: 8px;
 }
 
 img {
     display: block;
-    width: 800px;
+    width: 726px;
     height: auto;
-    margin: auto;
+    /* padding: 15px; */
+    margin: 80px auto 60px auto;
+    border: 12px double violet;
+    border-radius: 0px;
+    background-color: blueviolet;
+}
+
+.section {
+    margin: 0px 360px 50px 360px;
+    padding: 16px;
+    border: 2px solid blueviolet;
+    border-radius: 8px;
+    box-shadow: 6px 6px 2px violet;
+}
+
+.header {
+    background-color: yellow;
+    color: blueviolet;
+    height: 70px;
+    font-size: 24px;
+    padding: 8px 8px 12px 8px;
+    align-content: center;
+}
+
+.footer {
+    background-color: yellow;
+    color: blueviolet;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer p {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+
+.index h1 {
+    border: 5px solid blueviolet;
+    /* width: 160px; */
+    display: inline-block;
+    padding: 4px;
+    box-shadow: 4px 4px 1px violet;
+}
+
+div.header.index {
+    height: 55px;
 }
 
 div.title {
@@ -89,4 +157,8 @@ div.steps {
 
 .steps .even {
     background-color: lightyellow;
+}
+
+p {
+    text-indent: 12px;
 }
